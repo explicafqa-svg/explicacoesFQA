@@ -1,0 +1,27 @@
+/* Reset e fonte */
+body, h1, h2, p, a { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', sans-serif; background: #f8f9fa; color: #333; line-height: 1.6; }
+
+/* Cabeçalho e nav */
+header { background: #004080; color: white; padding: 2rem 1rem; text-align: center; }
+nav { margin-top: 1rem; }
+nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: bold; transition: color 0.3s; }
+nav a:hover { color: #ffcc00; }
+
+/* Conteúdo principal */
+main { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+
+/* Seções */
+section { margin-bottom: 3rem; padding: 2rem; background: white; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+
+/* Botão moderno */
+a.button { display: inline-block; padding: 0.8rem 1.5rem; background: #004080; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; transition: background 0.3s; }
+a.button:hover { background: #0066cc; }
+
+/* Rodapé */
+footer { text-align: center; padding: 1rem; background: #e9ecef; margin-top: 2rem; color: #555; }
+
+/* Responsivo */
+@media (max-width: 600px) {
+  nav a { display: block; margin: 0.5rem 0; }
+}
